@@ -53,7 +53,12 @@ if __name__ == "__main__":
     
     initial_state = {
         "document_id": "doc-789",
-        "raw_text": "Standard vendor agreement. Total value: $500,000.",
+        "raw_text": (
+            "SERVICE AGREEMENT\n"
+            "This agreement is made between Global Tech Solutions and Acme Corp. "
+            "Acme Corp agrees to pay Global Tech Solutions the sum of $150,000 for cloud infrastructure services. "
+            "Both parties agree to the terms outlined in this document. Confidentiality is strictly maintained."
+        ),
         "extracted_entities": {},
         "compliance_issues": [],
         "audit_status": "PENDING",
